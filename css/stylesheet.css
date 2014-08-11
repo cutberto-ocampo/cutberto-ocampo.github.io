@@ -1,0 +1,157 @@
+html, body {
+	margin: 0;
+}
+
+/* to use on containers with floated elements, check in Bootstrap: clearfix */
+.cf:before,
+.cf:after {
+	content: ' ';
+	display: table;
+}
+
+.cf:after {
+	clear: both;
+}
+
+.cf {
+	*zoom: 1;
+}
+/* to use on containers with floated elements, check in Bootstrap: clearfix */
+
+#main_container {
+	min-width: 960px;
+}
+
+#top_toolbar {
+	text-align: right;
+	padding-right: 25px;
+}
+
+.toolbar_content {
+	padding: 4px 6px;
+	font: 13px Arial,sans-serif;
+	display: inline-block;
+	line-height: 24px;
+	vertical-align: middle;
+}
+
+.icons {
+	background: url('../img/google_toolbar.png');
+}
+
+img.square {
+	background: url('../img/google_toolbar.png');
+	background-position: -51px -452px;
+	height: 30px;
+	width: 30px;
+	border-bottom: 0;
+	padding-bottom: 0;
+	background-size: 112px 1828px;
+	background-repeat: no-repeat;
+}
+
+span a:hover {
+	text-decoration: underline;
+}
+
+span a {
+	text-decoration: none;
+	border: 0;
+	padding: 0;
+}
+
+span a:visited {
+	color: black;
+}
+
+.reversed_text a:hover, .reversed_text a, .reversed_text a:visited {
+	display: inline-block;
+	background-color: #4387FD;
+	border-radius: 2px;
+	color: white;
+	padding: 3px 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#google_title {
+	margin-top: 120px;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#google_title img {
+	width: 260px;
+}
+
+#search_dialog {
+	text-align: center;
+	width: 100%;
+}
+
+#search_dialog input {
+	border: 1px solid #DDDDDD;
+	background-color: white;
+	line-height: 26px;
+	margin-bottom: 13px;
+	text-indent: 5px;
+}
+
+#search_dialog img {
+	width: 14px;
+	height: 19px;
+	position: relative;
+	left: -22px;
+	top: 4px;
+}
+
+#search_buttons {
+	width: 100%;
+	text-align: center;
+}
+
+button {
+	margin-right: 20px;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	background-color: #F2F2F2;
+	border-top: 1px solid #E4E4E4;
+	width: 100%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	display: block;
+}
+
+#left_footer {
+	position: relative;
+	float: left;
+	margin-left: 15px;
+}
+
+#footer div a {
+	margin-left: 20px;
+}
+
+#right_footer {
+	position: relative;
+	float: right;
+	margin-right: 30px;
+}
+
+#footer a, #footer a:visited {
+	font: 13px Arial,sans-serif;
+	text-decoration: none;
+	color: #666;
+
+}
+
+#footer a:hover {
+	font: 13px Arial,sans-serif;
+	text-decoration: underline;
+	color: #666;
+}
