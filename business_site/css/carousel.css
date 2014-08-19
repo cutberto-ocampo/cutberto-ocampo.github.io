@@ -1,0 +1,66 @@
+, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    min-height: 650px;
+    min-width: 960px;
+    padding-top: 1px;
+    border-radius: 6px;
+}
+
+#slider {
+    margin: 0;
+    height: 449px;
+    overflow: hidden;
+    background: url(../img/ajax-loader.gif) center center no-repeat;
+}
+
+#slider .slide {
+    position: relative;
+    display: none;
+    height: 449px;
+    float: left;
+    background-position: center right;
+    cursor: pointer;
+    border-left: 1px solid #fff;
+    overflow: hidden;
+}
+
+#slider .slide:first-child {
+    border: none;
+}
+
+#slider .slide.active {
+    cursor: default;
+}
+
+#slider .slide-block {
+    position: absolute;
+    left: 40px;
+    bottom: 75px;
+    display: inline-block;
+    width: 435px;
+    background-color: #fff;
+    background-color: rgba(255,255,255, 0.8);   
+    padding: 20px;
+    font-size: 14px;
+    color: #134B94;
+    border: 1px solid #fff;
+    overflow: hidden;
+}
+
+#slider .slide-block h4 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    line-height: 1;
+}
+#slider .slide-block p {
+    margin: 0;
+}
